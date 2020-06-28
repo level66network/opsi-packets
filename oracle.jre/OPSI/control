@@ -1,0 +1,30 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: oracle.jre
+name: Oracle Java Runtime Environment
+description: 
+advice: 
+version: 8u251
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: 
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+oracle.jre (8u251-1) testing; urgency=low
+
+  * Initial package
+
+ -- Jan Gilla <jgilla@level66.network>  Sun, 28 Jun 2020 19:36:15 +0000
+
+
