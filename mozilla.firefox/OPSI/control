@@ -1,0 +1,30 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: mozilla.firefox
+name: Mozilla Firefox
+description: 
+advice: 
+version: 68.9.0esr
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+mozilla.firefox (68.9.0esr-1) testing; urgency=low
+
+  * Initial package
+
+ -- Jan Gilla <jgilla@level66.network>  Sun, 28 Jun 2020 18:43:11 +0000
+
+

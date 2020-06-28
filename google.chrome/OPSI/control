@@ -1,0 +1,30 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: google.chrome
+name: Google Chrome
+description: 
+advice: 
+version: 83.0.4103.116
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+google.chrome (83.0.4103.116-1) testing; urgency=low
+
+  * Initial package
+
+ -- Jan Gilla <jgilla@level66.network>  Sun, 28 Jun 2020 19:11:45 +0000
+
+
