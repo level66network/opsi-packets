@@ -1,0 +1,30 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: kingscollegelondon.bluej
+name: Kinds College London BlueJ
+description: 
+advice: 
+version: 4.2.2
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+kingscollegelondon.bluej (4.2.2-1) testing; urgency=low
+
+  * Initial package
+
+ -- Jan Gilla <jgilla@level66.network>  Fri, 03 Jul 2020 22:57:34 +0000
+
+

@@ -1,0 +1,30 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: meesoft.diagram-designer
+name: MeeSoft Diagram Designer
+description: 
+advice: 
+version: 1.29.5
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+meesoft.diagram-designer (1.29.5-1) testing; urgency=low
+
+  * Initial package
+
+ -- Jan Gilla <jgilla@level66.network>  Fri, 03 Jul 2020 23:25:11 +0000
+
+

@@ -1,0 +1,6 @@
+[Actions]
+Message "Installiere GeoGebra Classic..."
+WinBatch_msi_request
+
+[WinBatch_msi_request]
+msiexec.exe /i "%ScriptPath%\setup.msi" ALLUSERS=2 /qb-!
