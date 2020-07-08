@@ -1,0 +1,30 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: inkscape
+name: Inkscape
+description: 
+advice: 
+version: 1.0
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+inkscape (1.0-1) testing; urgency=low
+
+  * Initial package
+
+ -- Jan Gilla <jgilla@level66.network>  Sat, 04 Jul 2020 09:03:38 +0000
+
+

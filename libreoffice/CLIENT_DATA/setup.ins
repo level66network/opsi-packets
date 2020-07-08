@@ -1,0 +1,6 @@
+[Actions]
+Message "Installiere LibreOffice..."
+WinBatch_msi_request
+
+[WinBatch_msi_request]
+msiexec.exe /i "%ScriptPath%\setup.msi" CREATEDESKTOPLINK=0 RebootYesNo=No ISCHECKFORPRODUCTUPDATES=0 REGISTER_ALL_MSO_TYPES=1 /qb-!

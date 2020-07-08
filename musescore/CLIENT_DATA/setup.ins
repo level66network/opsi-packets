@@ -1,0 +1,6 @@
+[Actions]
+Message "Installiere MuseScore..."
+WinBatch_msi_request
+
+[WinBatch_msi_request]
+msiexec.exe /i "%ScriptPath%\setup.msi" ALLUSERS=1 TARGETDIR="C:\Program Files\MuseScore" /qb-!
