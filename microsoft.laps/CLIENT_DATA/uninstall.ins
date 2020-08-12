@@ -1,0 +1,6 @@
+[Actions]
+Message "Deinstalliere Microsoft LAPS..."
+WinBatch_msi_request
+
+[WinBatch_msi_request]
+msiexec.exe /i "%ScriptPath%\setup.msi" /qb-!

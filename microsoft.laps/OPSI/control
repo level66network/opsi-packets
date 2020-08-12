@@ -1,0 +1,30 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: microsoft.laps
+name: Microsoft LAPS
+description: 
+advice: 
+version: 1.0
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+microsoft.laps (1.0-1) testing; urgency=low
+
+  * Initial package
+
+ -- Jan Gilla <jgilla@level66.network>  Wed, 12 Aug 2020 09:47:36 +0000
+
+
