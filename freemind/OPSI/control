@@ -1,6 +1,6 @@
 [Package]
 version: 1
-depends: 
+depends: oracle.jre
 
 [Product]
 type: localboot

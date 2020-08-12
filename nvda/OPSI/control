@@ -13,7 +13,7 @@ priority: 0
 licenseRequired: False
 productClasses: 
 setupScript: setup.ins
-uninstallScript: 
+uninstallScript: uninstall.ins
 updateScript: 
 alwaysScript: 
 onceScript: 
