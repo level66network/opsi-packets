@@ -8,7 +8,7 @@ id: mozilla.firefox
 name: Mozilla Firefox
 description: 
 advice: 
-version: 68.9.0esr
+version: 78.10.0esr
 priority: 0
 licenseRequired: False
 productClasses: 

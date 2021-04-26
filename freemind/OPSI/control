@@ -1,6 +1,6 @@
 [Package]
 version: 1
-depends: oracle.jre
+depends: 
 
 [Product]
 type: localboot
@@ -19,6 +19,12 @@ alwaysScript:
 onceScript: 
 customScript: 
 userLoginScript: 
+
+[ProductDependency]
+action: setup
+requiredProduct: oracle.jre
+requiredStatus: installed
+requirementType: before
 
 [Changelog]
 freemind (1.0.1-1) testing; urgency=low

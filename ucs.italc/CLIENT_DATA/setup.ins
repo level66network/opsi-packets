@@ -1,0 +1,11 @@
+[Actions]
+Message "Installiere iTALC..."
+WinBatch_msi_request
+Files_copy
+
+[WinBatch_msi_request]
+"%ScriptPath%\setup.exe" /S
+"%ProgramFilesDir%\iTALC\icm.exe" -ApplySettings "%ScriptPath%\clientSettings.xml" -quiet
+
+[Files_copy]
+copy "%ScriptPath%\key" "C:\ProgramData\iTALC\keys\public\teacher\"
